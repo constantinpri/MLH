@@ -9,6 +9,7 @@
   "story": ".ant-select-selector",
   "storyP": ".ant-select-selection-placeholder",
   "createBtn": ".ant-form-item-control-input-content",
+  "creatBtn2": ".ant-btn",
   "btnTxt": ".ant-btn",
   "imgUpload": ".ant-upload",
   "image": "//label[@title='5. Upload an image (optional)']",
@@ -17,6 +18,10 @@
   "upload": ".ant-upload",
   "uploadTxt": "//div[@style='font-size: 15px;']",
   "plus": "svg",
-  "type": ".ant-select-item-option-content"
+  "type": ".ant-select-item-option-content",
+  "tryAgain": "//a[@class='btn btn-primary']",
+  "endStory": ".ant-card-body",
+  "defaultp": ".mt-4.p-3",
+  "finalStory": ".card-text"
 
 }

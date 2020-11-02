@@ -9,18 +9,25 @@ describe('My Little Hero', function () { //define suite title by passing a strin
             browser.url('https://qa-apps.netlify.app/app_my_hero'); //open baseUrl
         });
 
-        it('TC- 002 Hero\'s Name is entered', function () {
-            const input = $$(sel.name).addValue('Eric');
-            const value = input.getValue();
-            //expect(value).toEqual('Eric');
+        it('TC-002 ', function () {
+            const name = $(sel.name).setValue('Eric');
+            $$(sel.gender)[0].click();
+            $(sel.age).addValue(345);
+            $(sel.story).click();
+            $$(sel.type)[3].click();
+            //browser.pause(9000);
+            $(sel.creatBtn2).click();
+            //browser.pause(9000);
+            const end = $(sel.endStory).isDisplayed();
+            expect(end).toEqual(true);
+            //const strory = $(sel.finalStory).getText();
+            //expect(strory).toHaveTextContaining("345");
+            //const def = $(sel.defaultp).isDisplayed();
+            //expect(def).toEqual(true);
         });
 
-        it('TC- 001 MHL gender is selected', function () {
-            const gender = $$(sel.gender)[0].click();
-            expect().toEqual(true);
-        });
+
 
     });
-
 
 });
