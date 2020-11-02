@@ -2,14 +2,21 @@
   "label": ".ant-form-item-required",
   "name": "#name",
   "gender": ".ant-radio",
+  "genderHe": "span",
+  "genderShe": "span",
+  "genderIt": "span",
   "age": "#age",
   "story": ".ant-select-selector",
+  "storyP": ".ant-select-selection-placeholder",
   "createBtn": ".ant-form-item-control-input-content",
   "btnTxt": ".ant-btn",
   "imgUpload": ".ant-upload",
   "image": "//label[@title='5. Upload an image (optional)']",
-  "header": "//body//h3",
+  "header": "h3",
   "header2": "p",
-  "upload": ".ant-upload"
+  "upload": ".ant-upload",
+  "uploadTxt": "//div[@style='font-size: 15px;']",
+  "plus": "svg",
+  "type": ".ant-select-item-option-content"
 
 }

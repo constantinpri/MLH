@@ -1,11 +1,24 @@
 {
-  "labelName": "1. What is your HERO's name?",
+  "labelName": "1. What is your Hero's name?",
   "labelGender": "2. Please choose a gender",
-  "elemGender1": "he",
+  "elemGenderHe": "he",
+  "elemGenderShe": "she",
+  "elemGenderIt": "it",
   "labelAge": "3. How old is your hero?",
   "labelStory": "4. What type of story would you like to read?",
   "labelImage": "5. Upload an image (optional)",
   "header": "My Little Hero",
   "header2": "Let's create your own HERO! It's super easy with our application!",
-  "btnName": "Create"
+  "btnName": "Create!",
+  "placeName": "Hero's name",
+  "placeAge": "Hero's age",
+  "typeOfStory": "Type of the story",
+  "uploadT": "Click or drag and drop",
+  "type1": "Overcoming the Monster",
+  "type2": "Rebirth",
+  "type3": "Quest",
+  "type4": "Journey and Return",
+  "type5": "Rags and Riches",
+  "type6": "Tragedy",
+  "type7": "Comedy"
 }
