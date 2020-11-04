@@ -9,7 +9,7 @@
   "story": ".ant-select-selector",
   "storyP": ".ant-select-selection-placeholder",
   "createBtn": ".ant-form-item-control-input-content",
-  "creatBtn2": ".ant-btn",
+  "create": ".ant-btn",
   "btnTxt": ".ant-btn",
   "imgUpload": ".ant-upload",
   "image": "//label[@title='5. Upload an image (optional)']",
@@ -23,5 +23,4 @@
   "endStory": ".ant-card-body",
   "defaultp": ".mt-4.p-3",
   "finalStory": ".card-text"
-
 }
